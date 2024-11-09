@@ -1,0 +1,15 @@
+.button-pagination{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+
+.button-pagination .page-link{
+  border: 0px;
+}
+
+.button-pagination.active .page-link{
+  background-color: rgb(70, 200, 70);
+  color: white;
+  border: 0px;
+}

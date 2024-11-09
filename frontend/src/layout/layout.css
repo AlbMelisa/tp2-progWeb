@@ -1,0 +1,105 @@
+.layout-root {
+  height: 100vh;
+  display: flex;
+}
+
+.layout-menu {
+    width: 200px;
+    background-color: darkturquoise;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    box-shadow:  0px 2px 0px rgba(0,0,0,0.75)
+}
+
+.layout-menu nav ul{
+   padding: 0;
+}
+
+.layout-menu nav ul li {
+  list-style: none;
+  width: 100%;
+  font-weight: 700;
+   padding: 5px 0 5px 0;  
+  
+}
+
+.layout-menu nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-selected {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px 0px 0px 0px;
+  display: block;
+}
+
+.menu-selected-stu {
+  background-color: white;
+  padding:10px;
+  border-radius: 0px 0px 0px 5px;
+  
+}
+.layout-menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.layout-menu nav li {
+  margin: 0;
+  padding: 0;
+}
+
+.layout-menu nav .menu-selected,
+.layout-menu nav .menu-selected-stu {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px 0px 0px 0px; 
+  display: block;
+  margin: 0; 
+}
+
+.layout-menu nav .menu-selected-stu {
+  border-radius: 0px 0px 0px 5px; 
+}
+
+.option1:hover,
+.option2:hover {
+  background-color: paleturquoise;
+  display: block;
+  border-radius: 5px 0px 0px 0px; 
+  padding: 10px;
+}
+
+.option2:hover {
+  border-radius: 0px 0px 0px 5px;
+
+}
+
+.layout-menu nav li a {
+  text-decoration: none;
+  color: inherit; 
+  display: block; 
+  width: 100%;
+}
+
+
+.option1, .option2 {
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+.option1 a, .option2 a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.layout-main-content {
+  flex: 1; 
+  background-color: white;
+  width: 200px;
+
+}

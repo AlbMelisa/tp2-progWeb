@@ -1,0 +1,9 @@
+.grid-form {
+  gap: 20px;
+  margin: 0px ;
+}
+
+.btn-align{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

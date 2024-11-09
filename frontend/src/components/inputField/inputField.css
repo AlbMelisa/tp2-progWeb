@@ -1,0 +1,33 @@
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.form-row label {
+  text-align: left;
+ 
+  
+}
+
+.form-row input {
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.input-error input{
+  border-color: red;
+}
+
+.input-error p{
+  color: red;
+  display: flex;
+  margin: 4px;
+  grid-column: 2;
+  justify-content: start;
+  margin:0;
+  font-size: 13px;
+  font-weight: bold;
+}
